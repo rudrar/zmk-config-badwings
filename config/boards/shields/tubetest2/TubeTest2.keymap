@@ -19,9 +19,9 @@
         bt_layer {
             bindings = <
                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT   &kp CARET   &kp AMPS    &kp STAR    &kp PIPE    &none
-                &kp GRAVE   &kp TILDE   &kp UNDER   &kp EQUAL   &none       &bkt        &brc        &par        &thn        &kp BSLH
-                &none       &none       &kp PLUS    &kp MINUS   &none       &none       &none       &kp COLON   &trans     &kp SEMI
-                                        &trans      &trans      &trans      &trans      &trans      &trans
+                &kp GRAVE   &kp TILDE   &kp UNDER   &kp EQUAL   &none       &none        &none        &none        &none        &kp BSLH
+                &none       &none       &kp PLUS    &kp MINUS   &none       &none       &none       &kp COLON   &none     &kp SEMI
+                                        &none     &none      &none     &none      &none     &none
             >;
         };
     };
